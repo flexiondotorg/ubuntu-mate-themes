@@ -561,8 +561,8 @@ toolbar menu menuitem radio:checked:disabled {
  *********************/
 scale slider,
 scale.horizontal slider {
-    background-image: -gtk-scaled(url("assets/slider-horizontal.png"),
-                                  url("assets/slider-horizontal@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-horizontal-down-backdrop-dark.png"),
+                                  url("assets/slider-horizontal-down-backdrop-dark@2.png"));
     background-repeat: no-repeat;
 }
 
@@ -574,27 +574,27 @@ scale.horizontal slider:backdrop {
 
 scale slider:hover,
 scale.horizontal slider:hover {
-    background-image: -gtk-scaled(url("assets/slider-horizontal-hover.png"),
-                                  url("assets/slider-horizontal-hover@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-horizontal-down-hover-dark.png"),
+                                  url("assets/slider-horizontal-down-hover-dark@2.png"));
     background-repeat: no-repeat;
 }
 
 scale slider:focus,
 scale.horizontal slider:focus {
-    background-image: -gtk-scaled(url("assets/slider-horizontal-focused.png"),
-                                  url("assets/slider-horizontal-focused@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-horizontal-down-focused-dark.png"),
+                                  url("assets/slider-horizontal-down-focused-dark@2.png"));
 }
 
 scale slider:hover:focus,
 scale.horizontal slider:hover:focus {
-    background-image: -gtk-scaled(url("assets/slider-horizontal-focused-hover.png"),
-                                  url("assets/slider-horizontal-focused-hover@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-horizontal-down-focused-dark.png"),
+                                  url("assets/slider-horizontal-down-focused-dark@2.png"));
 }
 
 scale slider:disabled,
 scale.horizontal slider:disabled {
-    background-image: -gtk-scaled(url("assets/slider-horizontal-disabled.png"),
-                                  url("assets/slider-horizontal-disabled@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-horizontal-down-disabled-dark.png"),
+                                  url("assets/slider-horizontal-down-disabled-dark@2.png"));
 }
 
 scale slider:disabled:backdrop,
@@ -603,8 +603,8 @@ scale.horizontal slider:disabled:backdrop {
 }
 
 scale.vertical slider {
-    background-image: -gtk-scaled(url("assets/slider-vertical.png"),
-                                  url("assets/slider-vertical@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-vertical-right-dark.png"),
+                                  url("assets/slider-vertical-right-dark@2.png"));
 }
 
 scale.vertical slider:backdrop {
@@ -612,23 +612,23 @@ scale.vertical slider:backdrop {
 }
 
 scale.vertical slider:hover {
-    background-image: -gtk-scaled(url("assets/slider-vertical-hover.png"),
-                                  url("assets/slider-vertical-hover@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-vertical-right-hover-dark.png"),
+                                  url("assets/slider-vertical-right-hover-dark@2.png"));
 }
 
 scale.vertical slider:focus {
-    background-image: -gtk-scaled(url("assets/slider-vertical-focused.png"),
-                                  url("assets/slider-vertical-focused@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-vertical-right-focused-dark.png"),
+                                  url("assets/slider-vertical-right-focused-dark@2.png"));
 }
 
 scale.vertical slider:hover:focus {
-    background-image: -gtk-scaled(url("assets/slider-vertical-focused-hover.png"),
-                                  url("assets/slider-vertical-focused-hover@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-vertical-right-focused-dark.png"),
+                                  url("assets/slider-vertical-right-focused-dark@2.png"));
 }
 
 scale.vertical slider:disabled {
-    background-image: -gtk-scaled(url("assets/slider-vertical-disabled.png"),
-                                  url("assets/slider-vertical-disabled@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-vertical-right-insensitive-dark.png"),
+                                  url("assets/slider-vertical-right-insensitive-dark@2.png"));
 }
 
 scale.vertical slider:disabled:backdrop {
